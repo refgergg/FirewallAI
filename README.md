@@ -14,6 +14,12 @@ Install the python requirements:
 pip install -r requirements.txt
 ```
 
+Add a .env file with your OpenAI API key like so:
+```
+OPENAI_KEY="{key}"
+```
+Replace `{key}` with your API key.
 
-Run `python server.py` first, then `python ai.py` in a seperate shell.
+
+Finally, run `python server.py` first, then `python ai.py` in a seperate shell.
 The server will be available at `http://localhost:5051`.
