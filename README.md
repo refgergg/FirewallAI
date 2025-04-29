@@ -23,3 +23,4 @@ Replace `{key}` with your API key.
 
 Finally, run `python server.py` first, then `python ai.py` in a seperate shell.
 The server will be available at `http://localhost:5051`.
+You can simulate attacks using the attack.py script. Just run `python attack.py`.

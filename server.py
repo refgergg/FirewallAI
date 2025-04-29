@@ -17,7 +17,7 @@ def logging_requests():
     route = request.path
     headers = request.headers
     body = request.get_data(as_text=True)
-    log = f'{ip} - [{requesttime}] "{method} {route} HTTP/1.1" \n{headers}\n{body}'
+    log = f'{ip} - [{requesttime}] "{method} {route} HTTP/1.1" \n{body}'
 
     app.logger.info(log)
 
